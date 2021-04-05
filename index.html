@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Gallery heading</title>
+    <style>
+        h1 {
+            color: gray;
+            font-size: 1.2em;
+            margin: 10px 10px 0 55px;
+            text-align: left;
+        }
+
+        p {
+            font-family: sans-serif;
+            font-size: 0.9em;
+            margin:15px 15px 15px 15px;
+
+
+
+        }
+
+        .container {
+            max-width: 1020px;
+            width: 90%;
+            margin: 10px auto;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-auto-rows: minmax(90px, 115px);
+            align-content: space-around;
+            grid-row-gap: 7px;
+            grid-column-gap: 5px;
+
+        }
+
+        .poza {
+            width: 120px;
+            height: 80px;
+            background-color: rgba(0, 140, 255, 0.897);
+
+
+        }
+
+        .desc {
+            padding: 5px;
+            text-align: center;
+            font-size: 12px;
+            font-family: comic, serif;
+            background-color: #ffffee;
+            border: 2px radius gray;
+        }
+
+        @media screen and (max-width:1024px) {
+            .container {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+        }
+
+        @media screen and (max-width:768px) {
+            .container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+        }
+
+        @media screen and (max-width:414px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Gallery Heading</h1>
+    <div class="container">
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+        <div class="poza"> <img src="placeholder-imagec.png">
+            <div class="desc">Image Title</div>
+        </div>
+    </div>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a lacinia nisi, nec tristique sem. Cras id tellus
+        ac mauris posuere varius. Pellentesque vel mi justo. Aenean malesuada purus eu lacinia finibus. Praesent commodo
+        euismod odio, eu pharetra nulla dignissim nec. Ut id nulla augue. Duis ulticies euismod purus, utlabortis tortor
+        semper a. Nam eleifend accumstan ellit, in elementum lacus. Nunc varius imperdiet nisi, eget pretium augue
+        molestie a. Nullam ut malesuada enim. Integer non velit fringilla, porta ex vite ,portitor vellit. Ut luctus
+        lacinia libero a scelerisque. Ut ullamcorper arcu at mauris uliamcorper tempor. </p>
+
+
+</body>
+
+</html>
